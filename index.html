@@ -1,21 +1,34 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title></title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>NSP-delivery</title>
 	<link rel="stylesheet" href="css/sass.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/fonts.css">
 	<script src="js/jquery-2.2.3.js" type="text/javascript"></script>
-	<script src="js/bootstrap.js" type="text/javascript"></script>
 	<script src="js/js.js" type="text/javascript"></script>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
 		
 	<!-- Для корректной работы импорта html необходим запуск через сервер -->
 	<link rel="import" href="include/popup1.html">
 	<link rel="import" href="include/popup2.html">
 	<link rel="import" href="include/popup3.html">
 	<link rel="import" href="include/popup4.html">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
 <body>
@@ -52,7 +65,7 @@
 			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-3 place_for_logo"></div>
 			<div class="col-lg-5 col-md-6 col-sm-6 col-xs-9">
 				<div class="search">
-					<form action="">
+					<form>
 						<input class="search_place" type="text" placeholder="Введите слово">
 						<input class="search_button" type="button" value="НАЙТИ">
 					</form>
@@ -106,7 +119,7 @@
 					<div class="row first_line">
 						<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
 							<div class="img col-lg-12 col-md-6 col-sm-6 col-xs-12">
-								<img src="img/nova.png" alt="novaposhta" width="76.5%">
+								<img src="img/nova.png" alt="novaposhta" >
 							</div>
 							<div class="description col-lg-12 col-md-6 col-sm-6 col-xs-12">
 								<p class="desc"><span class="btn title" data-toggle="modal" data-target="#myModal1">Новая Почта</span><br>Доставка в отделение Новой Почты.
@@ -117,7 +130,7 @@
 						</div>
 						<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
 							<div class="img col-lg-12 col-md-6 col-sm-6 col-xs-12">
-								<img src="img/Kyiv.png" alt="Kyiv" width="76.5%">
+								<img src="img/Kyiv.png" alt="Kyiv">
 							</div>
 							<div class="description col-lg-12 col-md-6 col-sm-6 col-xs-12">
 								<p class="desc"><span class="btn title" data-toggle="modal" data-target="#myModal2">Адресная доставка по Киеву</span><br>Доставка курьером по адресу 
@@ -128,7 +141,7 @@
 						</div>
 						<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
 							<div class="img col-lg-12 col-md-6 col-sm-6 col-xs-12">
-								<img src="img/ukraine.png" alt="ukraine" width="76.5%">
+								<img src="img/ukraine.png" alt="ukraine">
 							</div>
 							<div class="description col-lg-12 col-md-6 col-sm-6 col-xs-12">
 								<p class="desc"><span class="btn title" data-toggle="modal" data-target="#myModal3">Мист Экспресс</span><br>Доставка в пункт выдачи "Мист Эксперсс" 
@@ -144,7 +157,7 @@
 					<div class="row second_line">
 						<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
 							<div class="img col-lg-12 col-md-6 col-sm-6 col-xs-12">
-								<img src="img/cash.png" alt="cash" width="76.5%">
+								<img src="img/cash.png" alt="cash">
 							</div>
 							<div class="description col-lg-12 col-md-6 col-sm-6 col-xs-12">
 								<p class="desc"><span class="btn title" data-toggle="modal" data-target="#myModal4">Наличная</span><br>Оплата наличными при получении товара
@@ -176,13 +189,13 @@
 						<p>SUBSCRIBE TO OUR&nbsp; NEWSLETTER</p>
 						<p>Sign up today to be in with a chance of winning<br>
 						something magic</p>
-						<form action="">
+						<form>
 							<input type="text">
 							<input type="button" value="Subscribe">
 						</form>
 					</div>
 				</div>
-				<form action="" class="appear_sub">
+				<form class="appear_sub">
 					<input type="text" placeholder=" Your email">
 					<input type="button" value="">
 				</form>
@@ -190,10 +203,10 @@
 		</div>
 		<div class="row footer_2"> <!-- Соц сети -->
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				<a href="#"></a>
-				<a href="#"></a>
-				<a href="#"></a>
-				<a href="#"></a>
+				<a href="#">&ensp;</a>
+				<a href="#">&ensp;</a>
+				<a href="#">&ensp;</a>
+				<a href="#">&ensp;</a>
 			</div>
 		</div>
 		<div class="row footer_3"> <!-- Навигация -->
@@ -201,7 +214,7 @@
 			<nav role="navigation" class="navbar navbar-default">
 	          <!-- Навигация в хедере   -->
 	          <div class="navbar-header">
-	            <button id="collapse_display" type="button" data-target="#navbarCollapse_4" data-toggle="collapse" class="navbar-toggle navigation_footer_open footer_button" value="Show footer menu">
+	            <button id="collapse_display_4" type="button" data-target="#navbarCollapse_4" data-toggle="collapse" class="navbar-toggle navigation_footer_open footer_button" value="Show footer menu">
 	            <span class="sr-only">Toggle navigation</span>
 	            <span class="icon-bar"></span>
 	            <span class="icon-bar"></span>
@@ -219,44 +232,43 @@
 	              </li>
 	              <li><a href="#">OUR SERVICES</a>
 	             	 <ul class="inside_list">
-	              		<li><a href="">About us</a></li>
-	              		<li><a href="">Order History</a></li>
-	              		<li><a href="">Returns</a></li>
-	              		<li><a href="">Custom Service</a></li>
-	              		<li><a href="">Terms & Conditions</a></li>
+	              		<li><a href="#">About us</a></li>
+	              		<li><a href="#">Order History</a></li>
+	              		<li><a href="#">Returns</a></li>
+	              		<li><a href="#">Custom Service</a></li>
+	              		<li><a href="#">Terms & Conditions</a></li>
 	              	</ul>
 	              </li>
 	              <li><a href="#">OUR SUPPORT</a>
 	             	 <ul class="inside_list">
-	              		<li><a href="">Sitemap</a></li>
-	              		<li><a href="">Privacy Policy</a></li>
-	              		<li><a href="">Your Account</a></li>
-	              		<li><a href="">Advanced Search</a></li>
-	              		<li><a href="">Contact Us</a></li>
+	              		<li><a href="#">Sitemap</a></li>
+	              		<li><a href="#">Privacy Policy</a></li>
+	              		<li><a href="#">Your Account</a></li>
+	              		<li><a href="#">Advanced Search</a></li>
+	              		<li><a href="#">Contact Us</a></li>
 	              	</ul>
 	              </li>
 	              <li><a href="#">MY ACCOUNT</a>
 	              	<ul class="inside_list">
-	              		<li><a href="">My Account</a></li>
-	              		<li><a href="">Order History</a></li>
-	              		<li><a href="">Returns</a></li>
-	              		<li><a href="">Specials</a></li>
-	              		<li><a href="">Site Map</a></li>
+	              		<li><a href="#">My Account</a></li>
+	              		<li><a href="#">Order History</a></li>
+	              		<li><a href="#">Returns</a></li>
+	              		<li><a href="#">Specials</a></li>
+	              		<li><a href="#">Site Map</a></li>
 	              	</ul>
 	              </li>
 	              <li><a href="#">INFORMATION</a>
 	              	<ul class="inside_list">
-	              		<li><a href="">About Us</a></li>
-	              		<li><a href="">Delivary Information</a></li>
-	              		<li><a href="">Privacy Policy</a></li>
-	              		<li><a href="">Custom Service</a></li>
-	              		<li><a href="">Terms & Conditions</a></li>
+	              		<li><a href="#">About Us</a></li>
+	              		<li><a href="#">Delivary Information</a></li>
+	              		<li><a href="#">Privacy Policy</a></li>
+	              		<li><a href="#">Custom Service</a></li>
+	              		<li><a href="#">Terms & Conditions</a></li>
 	              	</ul>
 	              </li>
 	            </ul>
 	          </div>
 	        </nav>
-
 		</div>
 	</footer>
 	<div class="row under_footer">
@@ -264,10 +276,10 @@
 			<p>Copyright © 2014 <a href="http://plazathemes.com">Plazathemes.com.</a> All Rights Reserved.</p>
 		</div>
 		<div class="row col-lg-6 col-md-6 col-sm-6 col-xs-12">
-			<a href="#"></a>
-			<a href="#"></a>
-			<a href="#"></a>
-			<a href="#"></a>
+			<a href="#">&ensp;</a>
+			<a href="#">&ensp;</a>
+			<a href="#">&ensp;</a>
+			<a href="#">&ensp;</a>
 		</div>
 	</div>
 	

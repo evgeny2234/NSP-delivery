@@ -641,9 +641,8 @@ footer {
 
 .under_footer {
 	max-width: 1170px;
-	margin: auto;
 	padding: 30px 0px 25px 35px !important;
-	margin: 0px !important;
+	margin: 0px auto!important;
 	> div:nth-of-type(1) {
 		> p {
 			font-family: RalewayMedium;
